@@ -1,6 +1,21 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:#0D1117;
+  color: #f3f3f3;
   font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: none;
 }
