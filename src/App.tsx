@@ -1,11 +1,11 @@
-import styled from '@emotion/styled'
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Components/Features/Routes/Routes';
 
-const AppContainer = styled.div``;
-
-function App() {
+const App = () => {
   return (
-    <AppContainer>
-    </AppContainer>
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 
